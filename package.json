@@ -1,0 +1,12 @@
+{
+  "name": "bloomboard",
+  "private": true,
+  "scripts": {
+    "dev": "npm --prefix bloom-board run dev",
+    "build": "npm --prefix bloom-board run build",
+    "lint": "npm --prefix bloom-board run lint",
+    "test": "npm --prefix bloom-board run test",
+    "preview": "npm --prefix bloom-board run preview",
+    "postinstall": "npm --prefix bloom-board ci"
+  }
+}
